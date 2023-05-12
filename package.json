@@ -4,8 +4,14 @@
   "description": "baseline quick starter to build ussd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "prepare" : "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
+  
+  
   "author": "bliss",
   "type":"module",
   "license": "ISC",
