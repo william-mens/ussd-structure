@@ -1,5 +1,5 @@
 {
-  "name": "ussd-structure-base",
+  "name": "ussd-structure",
   "version": "1.0.0",
   "description": "baseline quick starter to build ussd",
   "main": "index.js",
